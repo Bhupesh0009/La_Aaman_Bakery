@@ -329,6 +329,11 @@
 
 .story-copy p:not(.eyebrow) {
   max-width: 56ch;
+  color: #fff2df;
+}
+
+.story-copy h2 {
+  color: #fffaf2;
 }
 
 .story-copy .eyebrow,
@@ -343,6 +348,10 @@
   border-radius: 28px;
   background: rgba(255, 248, 235, 0.1);
   color: #fffaf2;
+}
+
+.story-panel p {
+  color: #fff2df;
 }
 
 .story-number {
