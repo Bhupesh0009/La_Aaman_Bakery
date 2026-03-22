@@ -208,7 +208,11 @@ function App() {
       <header className="hero-section">
         <nav className="topbar" aria-label="Primary">
           <div className="brand-block">
-            <img className="brand-logo-image" src="/logo.png" alt="La Aaman Bakery logo" />
+            <img
+              className="brand-logo-image"
+              src="/logo-current.png"
+              alt="La Aaman Bakery logo"
+            />
           </div>
           <div className="topbar-links">
             <a href="#menu">Menu</a>

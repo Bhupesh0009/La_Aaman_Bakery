@@ -15,9 +15,7 @@
 
 .hero-section {
   padding: 24px;
-  background:
-    radial-gradient(circle at top left, rgba(255, 214, 153, 0.75), transparent 34%),
-    linear-gradient(135deg, #fff5df 0%, #f8ead5 46%, #efd7bd 100%);
+  background: #fde4d2;
   border: 1px solid rgba(120, 74, 32, 0.12);
   box-shadow: 0 24px 60px rgba(121, 72, 29, 0.08);
 }
@@ -100,11 +98,11 @@
 
 .brand-logo-image {
   flex: 0 0 auto;
-  width: 132px;
-  height: 132px;
-  padding: 8px;
-  background: rgba(255, 214, 153, 0.75);
-  border-radius: 50%;
+  width: 196px;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
   object-fit: contain;
 }
 
@@ -152,7 +150,7 @@
 .product-card,
 .story-panel,
 .visit-card {
-  background: rgba(255, 252, 246, 0.82);
+  background: rgba(255, 248, 239, 0.84);
   border: 1px solid rgba(120, 74, 32, 0.12);
   box-shadow: 0 18px 40px rgba(121, 72, 29, 0.08);
 }
@@ -177,7 +175,7 @@
   margin-top: 24px;
   padding: 14px 16px;
   border-radius: 20px;
-  background: #fff;
+  background: rgba(255, 249, 240, 0.95);
 }
 
 .featured-section,
@@ -456,6 +454,7 @@
 
   .brand-block {
     align-items: center;
+    justify-content: center;
   }
 
   .hero-section,
@@ -494,8 +493,8 @@
   }
 
   .brand-logo-image {
-    width: 98px;
-    height: 98px;
+    width: 146px;
+    height: auto;
   }
 
   .primary-action,
