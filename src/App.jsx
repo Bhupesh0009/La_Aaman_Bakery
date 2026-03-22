@@ -196,6 +196,7 @@ const quickFacts = [
 
 const phoneNumber = '9311209666'
 const dialerNumber = 'tel:9311209666'
+const directionsUrl = 'https://maps.app.goo.gl/FnuKMfSo7jjYDyDeA'
 
 function App() {
   const [selectedItem, setSelectedItem] = useState(null)
@@ -434,6 +435,15 @@ function App() {
           </section>
         </div>
       ) : null}
+
+      <a
+        className="floating-directions-button"
+        href={directionsUrl}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Get Directions
+      </a>
     </div>
   )
 }
